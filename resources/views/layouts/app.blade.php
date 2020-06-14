@@ -38,10 +38,8 @@
         </div>
     </nav>
 
-    <section class="container mx-auto px-4">
-        <div class="flex mt-5">
-            @yield('content')
-        </div>
+    <section class="container mx-auto">
+        @yield('content')
     </section>
 
     @livewireScripts

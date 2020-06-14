@@ -1,6 +1,6 @@
 <div>
     {{-- Because she competes with no one, no one can compete with her. --}}
-    <div class="max-w-sm w-full lg:max-w-full lg:flex">
+    <div class="max-w-sm w-full lg:max-w-full lg:flex w-1/12 h-full">
         <div class="border-r border border-gray-400 bg-white rounded p-4 flex flex-col justify-between leading-normal">
           <div class="mb-8">
             <div class="text-gray-900 font-bold text-xl mb-2">Home Page</div>
