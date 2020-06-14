@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @livewireStyles
 </head>
 <body>
     
@@ -35,7 +36,14 @@
                 </a>
             </div>
         </div>
-      </nav>
+    </nav>
 
+    <section class="container mx-auto px-4">
+        <div class="flex mt-5">
+            @yield('content')
+        </div>
+    </section>
+
+    @livewireScripts
 </body>
 </html>
